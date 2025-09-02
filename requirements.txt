@@ -1,0 +1,46 @@
+# Core data analysis packages
+pandas==2.2.3
+numpy==2.2.5
+matplotlib==3.10.1
+
+# Jupyter and IPython for notebook execution
+jupyter
+jupyterlab
+notebook
+ipykernel==6.29.5
+ipython
+
+# Progress tracking
+tqdm==4.67.1
+
+# Excel file handling
+openpyxl==3.1.5
+
+# Data visualization
+seaborn
+matplotlib
+pillow==11.2.1
+
+# HTTP requests
+requests
+
+# LLM and NLP packages
+transformers
+torch
+nltk
+rouge-score
+
+# API clients for closed-source LLMs
+openai
+google-generativeai
+anthropic
+cohere
+
+# Table formatting
+prettytable
+
+# Date and time handling
+python-dateutil==2.9.0.post0
+
+# System utilities
+psutil==5.9.0 

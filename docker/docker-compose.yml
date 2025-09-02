@@ -1,0 +1,21 @@
+services:
+  llmbot-compliance:
+    build: 
+      context: .
+      dockerfile: docker/Dockerfile
+    container_name: llmbot-compliance
+    ports:
+      - "8888:8888"  # JupyterLab
+    volumes:
+      # Mount your project directory for development
+      - .:/workspace
+      # Mount a data directory for persistent storage
+      - ./data:/workspace/data
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
+    # Memory and resource limits
+    mem_limit: 128g
+    memswap_limit: 256g
+    shm_size: 16g
+    working_dir: /workspace
+    command: ./scripts/startup.sh 

@@ -1,0 +1,111 @@
+{
+    "Applebot": {
+        "favored": 483,
+        "disfavored": 848,
+        "no bias": 769
+    },
+    "Baiduspider": {
+        "favored": 606,
+        "disfavored": 8868,
+        "no bias": 2504
+    },
+    "Bingbot": {
+        "favored": 2527,
+        "no bias": 7224,
+        "disfavored": 3382
+    },
+    "Googlebot": {
+        "favored": 9812,
+        "disfavored": 5191,
+        "no bias": 16354
+    },
+    "Google-Extended": {
+        "no bias": 1660,
+        "disfavored": 4440,
+        "favored": 34
+    },
+    "GPTBot": {
+        "no bias": 1811,
+        "disfavored": 11534,
+        "favored": 150
+    },
+    "Slurp": {
+        "favored": 1076,
+        "no bias": 5071,
+        "disfavored": 3278
+    },
+    "Yeti": {
+        "favored": 284,
+        "no bias": 916,
+        "disfavored": 2130
+    },
+    "FacebookBot": {
+        "no bias": 253,
+        "disfavored": 723,
+        "favored": 52
+    },
+    "DuckDuckBot": {
+        "favored": 426,
+        "disfavored": 299,
+        "no bias": 538
+    },
+    "CCBot": {
+        "disfavored": 8771,
+        "no bias": 1568,
+        "favored": 58
+    },
+    "YandexBot": {
+        "favored": 688,
+        "disfavored": 3211,
+        "no bias": 691
+    },
+    "ChatGPT-User": {
+        "disfavored": 4250,
+        "no bias": 1468,
+        "favored": 131
+    },
+    "360Spider": {
+        "disfavored": 2437,
+        "favored": 58,
+        "no bias": 382
+    },
+    "PetalBot": {
+        "disfavored": 7455,
+        "favored": 119,
+        "no bias": 519
+    },
+    "Omgilibot": {
+        "disfavored": 1267,
+        "no bias": 45,
+        "favored": 7
+    },
+    "Amazonbot": {
+        "disfavored": 2639,
+        "no bias": 242,
+        "favored": 122
+    },
+    "Bytespider": {
+        "disfavored": 1903,
+        "favored": 31,
+        "no bias": 106
+    },
+    "anthropic-ai": {
+        "no bias": 1374,
+        "disfavored": 1275,
+        "favored": 9
+    },
+    "YouBot": {
+        "disfavored": 53,
+        "no bias": 5
+    },
+    "cohere-ai": {
+        "disfavored": 325,
+        "no bias": 15,
+        "favored": 2
+    },
+    "PerplexityBot": {
+        "disfavored": 203,
+        "favored": 3,
+        "no bias": 4
+    }
+}
