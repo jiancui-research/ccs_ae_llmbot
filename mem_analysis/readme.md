@@ -27,17 +27,17 @@ For faster processing, please run scripts on GPUs. A full run typically takes ab
 
 ### For GPT2-XL
 ```bash
-python beam_search.py ./dataset/dataset_2019.json gpt2-xl ./result/result_gpt.json
+python opensource_next_sent_gen.py ./dataset/dataset_2019.json gpt2-xl ./result/result_gpt.json
 ```
 
 ### For Gemma-2-9B
 ```bash
-python beam_search.py ./dataset/dataset_2023.json google/gemma-2-9b YOUR_HF_TOKEN ./result/result_gemma.json
+python opensource_next_sent_gen.py ./dataset/dataset_2023.json google/gemma-2-9b YOUR_HF_TOKEN ./result/result_gemma.json
 ```
 
 ### For Llama-3-8B
 ```bash
-python beam_search.py ./dataset/dataset_2023.json meta-llama/Meta-Llama-3-8B YOUR_HF_TOKEN ./result/result_llama.json
+python opensource_next_sent_gen.py ./dataset/dataset_2023.json meta-llama/Meta-Llama-3-8B YOUR_HF_TOKEN ./result/result_llama.json
 ```
 
 Results will be saved to the `result` directory.
